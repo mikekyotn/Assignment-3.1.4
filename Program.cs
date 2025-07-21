@@ -1,7 +1,7 @@
 ﻿namespace Assignment_3._1._4
 {
     //Contains a function that takes an int array and finds the first
-    //two consecutive values and changes them to 0s
+    //two consecutive 1s and changes them to 0s
     //Status: Complete
     internal class Program
     {
@@ -22,7 +22,7 @@
             int previousValue = array[0];
             for (int i = 1; i < array.Length; i++)
             {
-                if (previousValue == array[i])
+                if ((previousValue == 1) && (array[i] == 1))
                 {
                     array[i - 1] = 0;
                     array[i] = 0;
