@@ -2,7 +2,7 @@
 {
     //Contains a function that takes an int array and finds the first
     //two consecutive values and changes them to 0s
-    //Status: Not complete, working.
+    //Status: Complete
     internal class Program
     {
         static void Main(string[] args)
